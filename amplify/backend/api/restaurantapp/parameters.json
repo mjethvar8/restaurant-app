@@ -1,0 +1,7 @@
+{
+    "AppSyncApiName": "restaurantapp",
+    "schemaGraphql": "s3://restaurantapp-20181206141609-deployment/amplify-appsync-files/schema.graphql.1544123945069",
+    "ResolverBucket": "restaurantapp-20181206141609-deployment",
+    "ResolverRootKey": "amplify-appsync-files",
+    "DeploymentTimestamp": "1544123945069"
+}

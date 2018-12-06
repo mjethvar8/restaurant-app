@@ -1,0 +1,32 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "restaurantapp-20181206141609-authRole",
+			"UnauthRoleArn": "arn:aws:iam::311184540254:role/restaurantapp-20181206141609-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::311184540254:role/restaurantapp-20181206141609-authRole",
+			"Region": "us-west-2",
+			"DeploymentBucketName": "restaurantapp-20181206141609-deployment",
+			"UnauthRoleName": "restaurantapp-20181206141609-unauthRole",
+			"StackName": "restaurantapp-20181206141609",
+			"StackId": "arn:aws:cloudformation:us-west-2:311184540254:stack/restaurantapp-20181206141609/652b5870-f98b-11e8-895e-50a68a0bca36"
+		}
+	},
+	"api": {
+		"restaurantapp": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "API_KEY",
+				"GraphQLAPIIdOutput": "yaodjmf5wbahvlps4er7siaijq",
+				"GraphQLAPIEndpointOutput": "https://tgpdzhn6gbahlfk4lkseoyt36a.appsync-api.us-west-2.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-nc44gts6bzcbtnjca4jtlzuegy"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/restaurantapp-20181206141609-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apirestaurantapp"
+			},
+			"lastPushTimeStamp": "2018-12-06T19:21:25.963Z",
+			"lastPushDirHash": "Blsa+0NrLx/l8jpfp3cCAtyRW/M="
+		}
+	}
+}
